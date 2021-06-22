@@ -1,50 +1,71 @@
 {
-    "pacientes" : [
+  "users": [
+    {
+      "email": "oscar.mesa@agileinnova.org",
+      "password": "$2a$10$YR2zJTgffDfZHM6w4/Ef2u//KJ7njR4sMVni5fK0fGGT/k6hWOl0y",
+      "id": 1
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "documento": "73662535",
+      "nombres": "Carlos",
+      "apellidos": "Andrade",
+      "fecha_nacimiento": "2000-10-10",
+      "celular": "32098098",
+      "correo": "carlos123@gmail.com",
+      "imc": [
         {
-            "id" : 1,
-            "documento" : "73662535",
-            "nombres" : "Carlos",
-            "apellidos" : "Andrade",
-            "fecha_nacimiento" : "2000-10-10",
-            "celular" : "32098098",
-            "correo" : "carlos123@gmail.com",
-            "imc" : [
-                {
-                    "id" : 1,
-                    "documento" : "73662535",
-                    "peso" : 80.2,
-                    "altura" : 1.8,
-                    "fehca_ingreso" : "2021-06-22 10:08:22"
-                },
-                {
-                    "id" : 2,
-                    "documento" : "73662535",
-                    "peso" : 80.2,
-                    "altura" : 1.8,
-                    "fehca_ingreso" : "2021-07-10 20:10:00"
-                }
-            ]
-        }
-    ],
-    "imc" : [
-        {
-            "id" : 1,
-            "documento" : "73662535",
-            "peso" : 80.2,
-            "altura" : 1.8,
-            "fehca_ingreso" : "2021-06-22 10:08:22"
+          "id": 1,
+          "documento": "73662535",
+          "peso": 80.2,
+          "altura": 1.8,
+          "fehca_ingreso": "2021-06-22 10:08:22"
         },
         {
-            "id" : 2,
-            "documento" : "73662535",
-            "peso" : 80.2,
-            "altura" : 1.8,
-            "fehca_ingreso" : "2021-07-10 20:10:00"
+          "id": 2,
+          "documento": "73662535",
+          "peso": 80.2,
+          "altura": 1.8,
+          "fehca_ingreso": "2021-07-10 20:10:00"
         }
-    ],
-    "configuracion" : {
-        "nombre_app" : "IMC",
-        "version" : "1.0.0",
-        "administrador" : "oscar"
+      ]
     }
+  ],
+  "imc": [
+    {
+      "id": 1,
+      "documento": "73662535",
+      "peso": 80.2,
+      "altura": 1.8,
+      "fehca_ingreso": "2021-06-22 10:08:22"
+    },
+    {
+      "id": 2,
+      "documento": "73662535",
+      "peso": 80.2,
+      "altura": 1.8,
+      "fehca_ingreso": "2021-07-10 20:10:00"
+    },
+    {
+      "documento": "73662535",
+      "peso": 76.2,
+      "altura": 1.89,
+      "fehca_ingreso": "2021-10-12 08:00:50",
+      "id": 3
+    },
+    {
+      "documento": "1111111",
+      "peso": 68.2,
+      "altura": 1.5,
+      "fehca_ingreso": "2021-01-20 13:05:00",
+      "id": 4
+    }
+  ],
+  "configuracion": {
+    "nombre_app": "IMC",
+    "version": "1.0.0",
+    "administrador": "oscar"
+  }
 }
